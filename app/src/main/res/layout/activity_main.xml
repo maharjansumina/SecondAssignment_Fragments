@@ -75,7 +75,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnArmstrong" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/FragmentContainer"
         android:layout_width="406dp"
         android:layout_height="413dp"
         android:layout_marginStart="38dp"

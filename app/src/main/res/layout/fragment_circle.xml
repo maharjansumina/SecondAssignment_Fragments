@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="#71C7BC"
-    tools:context=".fragments.CricleFragment">
+    tools:context=".fragments.CircleFragment">
 
     <EditText
         android:id="@+id/etRadius"
