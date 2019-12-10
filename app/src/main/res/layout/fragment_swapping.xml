@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#AC4472"
+    tools:context=".fragments.SwappingFragment">
+
+    <EditText
+        android:id="@+id/etFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a First Number"
+        android:layout_margin="15dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Second Number"
+        android:layout_margin="15dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnSwapping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:text="Swapping"/>
+
+
+
+</LinearLayout>

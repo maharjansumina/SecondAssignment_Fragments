@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#AAAA2B"
+    tools:context=".fragments.SimpleInterestFragment">
+
+    <EditText
+        android:id="@+id/etPrinciple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Principle"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Rate"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Time"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="Simple Interest"/>
+
+
+</LinearLayout>

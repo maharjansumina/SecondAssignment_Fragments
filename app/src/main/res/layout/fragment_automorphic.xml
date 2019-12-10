@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#C07E12"
+    tools:context=".fragments.AutomorphicFragment">
+
+    <EditText
+        android:id="@+id/etAutomorphic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Number"
+        android:textSize="20dp"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/btnAutomorphic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Automorphic"
+        android:textSize="20dp"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>
