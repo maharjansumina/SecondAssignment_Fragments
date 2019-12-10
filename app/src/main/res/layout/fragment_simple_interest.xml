@@ -8,10 +8,10 @@
     tools:context=".fragments.SimpleInterestFragment">
 
     <EditText
-        android:id="@+id/etPrinciple"
+        android:id="@+id/etPrincipal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter a Principle"
+        android:hint="Enter a Principal"
         android:layout_margin="10dp"
         android:textSize="20dp"/>
 
