@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter a Number"
+        android:inputType="number"
         android:textSize="20dp"
         android:layout_margin="15dp"/>
 
@@ -22,5 +23,11 @@
         android:text="Automorphic"
         android:textSize="20dp"
         android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/tvResult"/>
 
 </LinearLayout>

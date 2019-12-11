@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.softwarica.secondassignment_fragments.R;
@@ -21,6 +22,7 @@ public class ArmstrongFragment extends Fragment implements View.OnClickListener{
 
     private Button btnArmstrong;
     private EditText etArmstrongNumber;
+    private TextView tvResult;
 
 
     public ArmstrongFragment() {
@@ -35,6 +37,7 @@ public class ArmstrongFragment extends Fragment implements View.OnClickListener{
         View view = inflater.inflate(R.layout.fragment_armstrong, container, false);
 
         etArmstrongNumber = view.findViewById(R.id.etArmstrongNumber);
+        tvResult = view.findViewById(R.id.tvResult);
         btnArmstrong = view.findViewById(R.id.btnArmstrong);
 
         btnArmstrong.setOnClickListener(this);
@@ -57,11 +60,11 @@ public class ArmstrongFragment extends Fragment implements View.OnClickListener{
 
         if (temp==c)
 
-            Toast.makeText(getActivity(),"The Number is Armstrong.", Toast.LENGTH_SHORT).show();
+            tvResult.setText("The Number is Armstrong.");
 
         else
 
-            Toast.makeText(getActivity(), "The Number is not Armstrong.", Toast.LENGTH_SHORT).show();
+            tvResult.setText("The Number is not Armstrong.");
 
     }
 }

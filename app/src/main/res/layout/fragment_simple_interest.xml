@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter a Principal"
         android:layout_margin="10dp"
+        android:inputType="number"
         android:textSize="20dp"/>
 
     <EditText
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter a Rate"
         android:layout_margin="10dp"
+        android:inputType="number"
         android:textSize="20dp"/>
 
     <EditText
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter a Time"
         android:layout_margin="10dp"
+        android:inputType="number"
         android:textSize="20dp"/>
 
     <Button
@@ -38,6 +41,12 @@
         android:layout_margin="10dp"
         android:textSize="20dp"
         android:text="Simple Interest"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/tvResult"/>
 
 
 </LinearLayout>

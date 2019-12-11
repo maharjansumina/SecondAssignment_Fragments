@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.softwarica.secondassignment_fragments.R;
@@ -21,6 +22,7 @@ public class AutomorphicFragment extends Fragment implements View.OnClickListene
 
     private Button btnAutomorphic;
     private EditText etAutomorphic;
+    private TextView tvResult;
 
 
     public AutomorphicFragment() {
@@ -34,6 +36,7 @@ public class AutomorphicFragment extends Fragment implements View.OnClickListene
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_automorphic, container, false);
          etAutomorphic = view.findViewById(R.id.etAutomorphic);
+         tvResult = view.findViewById(R.id.tvResult);
          btnAutomorphic = view.findViewById(R.id.btnAutomorphic);
 
          btnAutomorphic.setOnClickListener(this);
@@ -60,10 +63,12 @@ public class AutomorphicFragment extends Fragment implements View.OnClickListene
         }
 
         if(s%c==a)
-            Toast.makeText(getActivity(),"The number is Automorphic.", Toast.LENGTH_SHORT).show();
+
+            tvResult.setText("The number is Automorphic.");
 
         else
-            Toast.makeText(getActivity(),"The number is not Automorphic.",Toast.LENGTH_SHORT).show();
+
+            tvResult.setText("The number is not Automorphic.");
 
     }
 }
