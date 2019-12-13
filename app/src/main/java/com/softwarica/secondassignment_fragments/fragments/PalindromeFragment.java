@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,6 +47,12 @@ public class PalindromeFragment extends Fragment implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
+
+        if (TextUtils.isEmpty(etPalindrome.getText())) {
+            etPalindrome.setError("Please input any number.");
+            return;
+        }
+
         int r,sum=0,temp;
         int number = Integer.parseInt(etPalindrome.getText().toString());
 
