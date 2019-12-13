@@ -51,7 +51,7 @@ public class SimpleInterestFragment extends Fragment implements View.OnClickList
     public void onClick(View v) {
 
         if (TextUtils.isEmpty(etPrincipal.getText())) {
-            etPrincipal.setError("Please input any Principal.");
+            etPrincipal.setError("Please input  Principal.");
             return;
         } else if (TextUtils.isEmpty(etRate.getText())) {
             etRate.setError("Please input Rate");
